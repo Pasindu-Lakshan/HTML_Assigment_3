@@ -1,0 +1,46 @@
+section{
+    height: 100vh;
+    
+}
+section:nth-child(1){
+    background-color: yellow;
+}
+section:nth-child(2){
+    background-color: rgb(65, 225, 204);
+}
+section:nth-child(3){
+    background-color: rgb(225, 65, 217);
+}
+section:nth-child(4){
+    background-color: rgb(65, 68, 225);
+}
+div{
+    position: sticky;
+    height: 70px;
+   top: 0;
+   z-index: 5;
+
+}
+#one{
+    background-color: rgb(184, 184, 39);
+}
+#two{
+    background-color: rgb(19, 109, 100);
+}
+#three{
+    background-color: rgb(75, 14, 75);
+}
+#four{
+    background-color: rgb(26, 26, 107);
+}h1{
+    position: relative;
+    margin-top: 50vh;
+  text-align: center;
+    transform: translate(0%,-50%);
+    font-size: 100px;
+}
+h2{
+    margin: 0%;
+    padding: 10px;
+    color: cornsilk;
+}
